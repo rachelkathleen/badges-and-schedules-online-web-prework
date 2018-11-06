@@ -16,8 +16,6 @@ def assign_rooms(attendees)
   end
 end
 
-
-  #should return a list oxf welcome messages and room assignments (FAILED - 4)
-  #should not hard-code the response (FAILED - 5)
-#printer
-  #should puts the list of badges and room_assignments (FAILED - 6)# Write your code here.
+def printer
+  print assign_rooms(attendees)
+end

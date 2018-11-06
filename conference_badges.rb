@@ -11,12 +11,12 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(attendees)
-  attendee.map.each do |attendees, index|
-    "Hello, #{attendees}! You'll be assigned to room #{index + 1}!"
+  attendees.map.each do |attendee, index|
+    "Hello, #{attendee}! You'll be assigned to room #{index + 1}!"
   end
 end
 
-  #should return a list of welcome messages and room assignments (FAILED - 4)
+  #should return a list oxf welcome messages and room assignments (FAILED - 4)
   #should not hard-code the response (FAILED - 5)
 #printer
   #should puts the list of badges and room_assignments (FAILED - 6)# Write your code here.

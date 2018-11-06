@@ -1,6 +1,8 @@
 def badge_maker(name)
-  puts "Hello, my name is #{name}."
+  "Hello, my name is #{name}."
 end
+
+
   #should return a formatted badge (FAILED - 1)
 #batch_badge_creator
   #should return a list of badge messages (FAILED - 2)

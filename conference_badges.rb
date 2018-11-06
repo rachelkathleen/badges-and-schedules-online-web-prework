@@ -16,6 +16,6 @@ def assign_rooms(attendees)
   end
 end
 
-def printer
-  print assign_rooms(attendees)
+def printer(method)
+  print method
 end

@@ -7,9 +7,9 @@ def badge_maker(name)
   "Hello, my name is #{name}."
 end
 
-def batch_badge_creator(name)
-  attendee_array.each  do |name|
-    return "Hello, my name is #{name}."
+def batch_badge_creator(attendees)
+  attendees.map do |attendee|
+    "Hello, my name is #{attendee}."
   end
 end
   #should return a list of badge messages (FAILED - 2)
